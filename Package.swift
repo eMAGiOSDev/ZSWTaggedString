@@ -22,8 +22,5 @@ let package = Package(
             name: "ZSWTaggedString",
             dependencies: [],
             path: "ZSWTaggedString/Classes"),
-        .testTarget(
-            name: "ZSWTaggedStringTests",
-            dependencies: ["ZSWTaggedString"]),
     ]
 )
